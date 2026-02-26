@@ -56,7 +56,7 @@ python app.py
 
 Then open:
 
-- http://127.0.0.1:18791
+- http://127.0.0.1:18793
 
 ### 4) Update status
 
@@ -72,7 +72,7 @@ python3 star-office-ui/set_state.py idle "Standing by"
 Install `cloudflared`, then:
 
 ```bash
-cloudflared tunnel --url http://127.0.0.1:18791
+cloudflared tunnel --url http://127.0.0.1:18793
 ```
 
 You’ll get a `https://xxx.trycloudflare.com` URL.
