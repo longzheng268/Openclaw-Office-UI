@@ -63,8 +63,8 @@ Then open:
 From the project root:
 
 ```bash
-python3 star-office-ui/set_state.py writing "Working on a task..."
-python3 star-office-ui/set_state.py idle "Standing by"
+python set_state.py writing "Working on a task..."
+python set_state.py idle "Standing by"
 ```
 
 ## Public access (Cloudflare quick tunnel)
